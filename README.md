@@ -1,6 +1,6 @@
 # Brick Breaker Game 
 
-In this game you have the control of bar at the bottom. It is use to bounce back the ball. The ball hits the target and you gain points. Once the ball hit the obtacle it bounces back and the obstacles disappear.
+In this game you have the control of bar at the bottom. It is use to bounce back the ball. The ball hits the brick and you gain points. Once the ball hit the brick it bounces back and the brick disappear.
 
 You have to keep the ball bouncing back till all the obstacles are cleared. 
 
