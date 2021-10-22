@@ -8,7 +8,7 @@ public class main {
 		
 		
 		JFrame obj = new JFrame();
-		  // Declare the object of Gamplay Class
+		// Declare the object of Gamplay Class
 		Gamplay gameplay = new Gamplay();
 		obj.add(gameplay); 
 		
@@ -18,8 +18,7 @@ public class main {
 		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		obj.setVisible(true);
 		
-		          // Add object gameplay to obj. it gives error "The method add(Component) in the type Container is not applicable for the 
-		                            // arguments (Gamplay) and it solved when we include extends JPanel in Gamplay
+		         
 	}
 	
 }
