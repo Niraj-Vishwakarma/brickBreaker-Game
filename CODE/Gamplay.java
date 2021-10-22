@@ -44,25 +44,12 @@ public class Gamplay extends JPanel implements KeyListener, ActionListener // Ke
     	
     	//map 
     	map= new MapGenerator(4,8);
-    	//KeyListener keyListener = new this();
-//    	KeyListener listener = new Gamplay();
     	this.addKeyListener(this);
     	this.requestFocusInWindow();
     	this.setFocusable(true);
     	this.setFocusTraversalKeysEnabled(false);
     	  
-    	this.add(label);
-    	
-    //	icon= new Image("om.png");
-//   	addKeyListener(this);
-//   	setFocusable(true);
-  	
-    
-//    	setFocusable(true);
-//    	requestFocus(); 
-    	
-    	  //  this.setFocusable(true);
-//    
+    	this.add(label);   
     	
    	timer = new Timer(delay, this);               // got error because importef wrong package correct is "import javax.swing.Timer;
    	timer.start(); 	
